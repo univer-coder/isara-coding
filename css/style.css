@@ -581,8 +581,8 @@ a{
 	padding-top: -10px;
 }
 .representative-item img{
-	object-fit: fill;
-	width: 31%;
+	object-fit: cover;
+	width: 31%; height: 100%;
 	margin-right: 30px;
 	border: solid 3px #EBB94D;
 }
