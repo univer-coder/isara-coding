@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+/*responsive*/
+@media  screen and (min-width: 1190px) {
+	#header{
+		font-size: ;
+	}
+	#support .steps{
+		flex-direction: row;
+	}
+	#support .steps .step-item{
+		margin: 0 10px;
+	}
+	#merit .merit-item .merit-title{
+		text-align: left;
+	}
+}
+@media screen and (max-width: 992px) {
+	#merit .merits{
+		flex-direction: column;
+	}
+	#merit .merits .merit-item{
+		width: 100%;
+	}
+	.teachers{
+		flex-direction: column;
+		padding: 0;
+	}
+	.teacher-item{
+		width: 100%;
+	}
+	.lessons{
+		flex-direction: column;
+	}
+	.lesson-item{
+		width: 600px;
+		margin: 0 auto;
+	}
+	.lesson-item:last-child{
+		margin-top: 15px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	#merit .frame-wrapper{
+		margin: 0 20px;
+	}
+	#header{
+		transform: translateY(-60px);
+	}
+	.header-nav{
+		height: 60px;
+		margin: 0 auto;
+		max-width: 1190px;
+		padding-right: 0px;
+	}
+	.header-right-pc{
+		display: none;
+	}
+	.header-right-sp{
+		display: block;
+		background-color: #DA6B64;
+		height: 60px; width: 80px;
+		color: white;
+		font-size: 12px;
+		letter-spacing: 2px;
+		line-height: 90px;
+		position: relative;
+	}
+	.header-right-sp .fa-file-alt{
+		display: block;
+		font-size: 24px;
+		position: absolute;
+		top: 10px; right: 28px;
+	}
+	#header ul{
+		align-items: flex-start;
+		width: 100%;
+	}
+	#header ul li p{
+		font-size: 10px;
+		padding-top: 10px;
+		margin-left: -5px;
+	}
+	#header img{
+		position: absolute;
+		top: 25px; left: 10px;
+		width: 90px;
+	}
+	#main h2{
+		font-size: 18px;
+	}
+	#main .frame:before{
+		width: 30px; height: 30px;
+	}
+	#main .frame:after{
+		width: 30px; height: 30px;
+	}
+	#main .frame h2{
+		line-height: 40px;
+	}
+	.br-pc{
+		display: none;
+	}
+	.br-sp{
+		display: inline;
+	}
+	.top-image{
+		background-image: url('../img/mainsp.jpg');
+		height: 311px;
+		margin-top: 60px;
+	}
+	#main #top .top-form p{
+		font-size: 14px;
+	}
+	#intro{
+		height: 656px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center 360px;
+	}
+	#intro .intro-text{
+		top: 140px;
+	}
+	#intro .intro-text p{
+		font-size: 15px;
+	}
+	#about .about-icon{
+		height: 60px; width: 60px;
+		border-radius: 30px;
+		top: -30px; left: 50%;
+		transform: translateX(-50%);
+	}
+	#about .about-icon p{
+		font-size: 12px;
+	}
+	#about .about-text p{
+		font-size: 16px;
+		font-weight: bold;
+		padding: 30px 0 30px;
+	}
+	.skills{
+		flex-wrap: wrap;
+	}
+	.skill-item img{
+		height: 30px;
+	}
+	#about{
+
+	}
+	#about .skills .skill-item p{
+		font-size: 10px;
+		padding-top: 10px; 
+	}
+	#support .stepswrapper{
+		padding: 0 20px;
+	}
+	#support .steps .step-item{
+		width: 100%;
+	}
+	#support .support-heading{
+		font-size: 13px;
+		letter-spacing: 0;
+	}
+	#support .steps .step-item .title{
+		font-size: 12px;
+		margin: 20px 30px;
+	}
+	#support .steps .step-item .time{
+		padding-bottom: 10px;
+	}
+	#support .steps .step-item .text{
+		font-size: 12px;
+		padding-bottom: 10px;
+	}
+	#support .supportbottom{
+		padding: 20px 0;
+	}
+	#support .supportbottom p{
+		font-size: 12px;
+	}
+	#learning .skill-icons{
+		margin: 20px 50px;
+	}
+	#learning .skill-icon-item img{
+		margin: 0 10px;
+		max-width: 120px;
+		width: 95%;
+	}
+	#merit .merits{
+		padding: 0 15px;
+	}
+	.merit-item{
+		width: 100%;
+	}
+	.merit-item img{
+		object-fit: cover;
+		height: 120px; width: 100%;
+	}
+	#merit .merit-item .merit-text{
+		font-size: 12px;
+		text-align: left;
+		width: 95%;
+		margin: 0 auto;
+	}
+	#merit .container{
+		margin: 0 15px;
+		padding: 10px 10px 20px;
+	}
+	#merit .container p{
+		font-size: 10px;
+		letter-spacing: 0;
+	}
+	#merit .merit-lead{
+		font-size: 12px;
+		letter-spacing: 0;
+		padding: 15px 10px 30px;
+	}
+	#member{
+		padding: 90px 0px 50px
+	}
+	#member .member-heading{
+		padding: 35px 0 20px;
+		font-size: 12px;
+	}
+	.teacher-item img{
+		height: 120px; width: 120px;
+		border-radius: 60px;
+		position: absolute;
+		left: 50%; top: 30px;
+	}
+	.profile{
+		margin-top: 120px;
+		padding: 40px 5px 15px;
+	}
+	#member .profile p{
+		font-size: 12px;
+	}
+	.lesson-item{
+		margin: 0;
+		width: auto;
+	}
+
+	.flow-sp{
+		display: block;
+		padding: 30px 0 50px;
+	}
+	.flow-detail,.flow-img,.flow-check{
+		display: none;
+	}
+	.flow-label{
+  		cursor: pointer;
+		background: #FEF5E0;
+		font-weight: bold;
+		text-align: left;
+		display: block;
+		border: none;
+		margin: 5px 15px 0;
+		padding: 10px 15px;
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.flow-label img{
+		height: 30px;
+		padding-right: 20px;
+	}
+	#flow .flow-label h2{
+		font-size: 15px;
+	}
+	.flow-label:hover{
+		text-decoration: underline;
+	}
+	.flow-label:last-child{
+
+	}
+	.hidden{
+		display: none;
+	}
+
+	#flow .flow-content p{
+		background-color: #FEF5E0;
+	  	border: none;
+	  	font-size: 12px;
+	  	text-align: left;
+	  	line-height: 18px;
+	  	margin: 0 15px;
+	  	padding: 10px 15px 0;
+	  	letter-spacing: 0;
+	}
+	#flow .flow-content p:last-child{
+		padding-bottom: 30px;
+	}
+	.flow-label .arrow-icon:after{
+		border-left: 4px solid rgba(0, 0, 0, 1);
+		border-bottom: 4px solid rgba(0, 0, 0, 1);
+		width: 8px; height: 8px;
+		top: 15px;
+	}
+	#bangkok{
+		background-size: auto 120%;
+		background-position: 0;
+	}
+	#bangkok .bangkok-wrapper{
+		padding: 40px;
+	}
+	#bangkok .bangkok-heading-top{
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.special-wrapper{
+		margin: 80px 15px 40px;
+	}
+	.special-heading{
+		padding-top: 20px;
+	}
+	#special .special-heading-lead{
+		font-size: 12px;
+		padding-top: 20px;
+	}
+	.presents-heading{
+		width: 250px;
+		top: -30px;
+		padding: 0 20px;
+	}
+	.present-item{
+		width: 80%; height: auto;
+		background-color: #F7C23C;
+		border: none;
+		margin: 0 auto 25px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#special .present-item-title{
+		font-size: 12px;
+		font-weight: bold;
+		background-color: #FFFFFF;
+		width: 60px; height: 60px;
+		line-height: 60px;
+		border-radius: 30px;
+		padding-top: 0;
+	}
+	#special .present-item-text{
+		display: none;
+	}
+	#special .present-item-text-sp{
+		display: block;
+		color: #FFFFFF;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: left;
+		padding: 10px 0 0 30px;
+		width: 80%;
+	}
+
+	#goal .goal-text{
+		font-size: 12px;
+	}
+
+	#form{
+		padding: 60px 15px 70px;
+	}
+
+	.acd-label{
+		padding: 10px 20px;
+		margin: 10px 15px;
+	}
+	.acd-content{
+		font-size: 12px;
+		line-height: 18px;
+		margin: 10px 15px;
+		padding: 10px 20px;
+	}
+	body footer{
+		padding: 20px 0 10px;
+	}
+}
